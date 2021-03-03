@@ -1,0 +1,20 @@
+.projects-page {
+    background-color: #E7ECEF;
+}
+
+.projects {
+    /* margin-left: 7.5vw; */
+    display: flex;
+    flex-direction: row;
+    /* position: relative; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    padding: 2% 0% 2% 0%;
+}
+
+.projtitle {
+    font-family: 'Lexend Mega', sans-serif;
+    margin-top: 2rem;
+    font-size: 3rem;
+}

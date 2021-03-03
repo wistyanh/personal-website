@@ -1,0 +1,161 @@
+.projects-page {
+    background-color: #E7ECEF;
+}
+
+.projects {
+    margin-left: 7.5vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 3rem;
+    padding: 2% 0% 2% 0%;
+}
+
+.projtitle {
+    font-family: 'Lexend Mega', sans-serif;
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+.projectName {
+    font-family: 'Lexend Mega', sans-serif;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.TGIF {
+    width: 85vw;
+    height: 30vh;
+    display: flex;
+    background-color: #c3def4;
+    margin-top: 3rem;
+}
+
+.tgif {
+    width: 15vw;
+    height: 25vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.TGIFIcon {
+    background-color: white;
+    width: 20vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.TGIFDescription {
+    overflow: auto;
+}
+
+.p5 {
+    width: 85vw;
+    height: 30vh;
+    display: flex;
+    margin-top: 3rem;
+    background-color: #7eb3df;
+}
+
+.p5icon {
+    width: 15vw;
+    height: 25vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.p5Icon {
+    background-color: white;
+    width: 20vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.p5Description {
+    overflow: auto;
+}
+
+.Incoming {
+    background-color:#c3def4;
+    width: 85vw;
+    height: 30vh;
+    display: flex;
+    margin-top: 3rem;
+}
+
+.incomingicon {
+    width: 15vw;
+    height: 25vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.incoming {
+    background-color: white;
+    width: 20vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.IncomingDescription {
+    overflow: auto;
+}
+
+.Media-Controls {
+    background-color: #7eb3df;
+    width: 85vw;
+    height: 30vh;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.handgestures {
+    width: 15vw;
+    height: 25vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.mediapic {
+    background-color: white;
+    width: 20vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.Media-ControlDescription {
+    overflow: auto;
+}

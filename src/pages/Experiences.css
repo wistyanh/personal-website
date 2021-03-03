@@ -1,0 +1,28 @@
+.header {
+    font-family: 'Lexend Mega', sans-serif;
+    font-size: 3rem;
+    color: white;
+    text-align: right;
+    margin-right: 5rem;
+    margin-top: 3rem;
+}
+
+#description {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.date {
+    color: white;
+}
+
+.vertical-timeline-element-title {
+    font-size: 2rem;
+}
+
+.vertical-timeline-element-subtitle {
+    font-size: 1rem;
+}
+
+.experiences {
+    margin-bottom: 3rem;
+}
