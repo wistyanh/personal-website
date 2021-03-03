@@ -16,6 +16,16 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <div className="App">
+
+      {/* <div className="navBar">
+        <ul>
+          <li><a className="active" href="#HomePage">about me</a></li>
+          <li><a href=".Experiences#Experiences">experiences</a></li>
+          <li>projects</li>
+          <li>contact</li>
+        </ul>
+      </div> */}
+
       <HomePage/>
       <Experiences/>
       <Projects/>

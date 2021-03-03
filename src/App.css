@@ -1,0 +1,15 @@
+.navBar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #132d3e;
+    padding: 0;
+  }
+
+  .navBar li {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    margin-right: 2vw;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }

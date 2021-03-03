@@ -9,7 +9,8 @@ function HomePage() {
       <div className="topBar">
 
         {/* <h2 className="initial">AVP</h2> */}
-
+        <h2 className="initial">AVP</h2>
+        
         <div className="NavBar">
           <ul>
             <li>about me</li>

@@ -1,0 +1,45 @@
+.projectComponent {
+    display: flex;
+    flex: 0 auto auto;
+    flex-direction: column;
+    background-color: #c3def4;
+    margin-top: 2rem;
+    align-items: center;
+    border-radius: 35px;
+    padding: 2% 2% 2% 2%;
+    margin-bottom: 2rem;
+    margin-right: 3rem;
+    width: max-content;
+    box-shadow: 0 4px 8px 0 rgb(100 86 49 / 10%), 0 6px 20px 0 rgb(100 86 49 / 10%);
+    min-height: 50vh;
+    max-height: 70vh;
+    min-width: 25vw;
+    max-width: 30vw;
+}
+
+.projPic {
+    width: 15vw;
+    height: 25vh;
+    justify-self: center;
+    margin-bottom: 1.5rem;
+}
+
+.projName {
+    font-family: 'Lexend Mega', sans-serif;
+    font-size: 2rem;
+    justify-self: center;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.projDescription {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+}

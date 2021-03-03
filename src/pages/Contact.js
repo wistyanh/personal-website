@@ -2,7 +2,7 @@ import './Contact.css';
 import me2 from './../pics/me2.jpg';
 import email from './../pics/email.png';
 import github from './../pics/github.png';
-import linkeidn from './../pics/li.png';
+import linkedin from './../pics/li.png';
 import resume from './../pics/resume.png';
 
 
@@ -15,10 +15,21 @@ function Contact() {
             <h1 className="reach-out">reach out and let's chat!</h1>
 
             <div className="socials">
-                <img className="icons" src={email}/>
-                <img className="icons" src={github}/>
-                <img className="icons" src={linkeidn}/>
-                <img className="icons" src={resume}/>
+                <a href="mailto:wistyanh12@gmail.com" target="_blank">
+                    <img className="icons" src={email}/>
+                </a>
+                <a href="https://github.com/wistyanh" target="_blank">
+                    <img className="icons" src={github}/>
+                </a>
+                <a href="https://www.linkedin.com/in/anhvpham/" target="_blank">
+                    <img className="icons" src={linkedin}/>
+                </a>
+                <a href="">
+                    <img className="icons" src={resume}/>
+                </a>
+                
+                
+                
             </div>
 
         </div>

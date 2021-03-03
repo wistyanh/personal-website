@@ -8,13 +8,15 @@
     flex-direction: column;
 }
 
-/* .topBar {
-    display: inline;
+ .topBar {
+    background-color: #132d3e;
 }
 
 .initial {
     color: white;
-} */
+    font-family: 'Lexend Mega', sans-serif;
+    margin-left: 3rem;
+} 
 
 .NavBar {
     display: flex;
