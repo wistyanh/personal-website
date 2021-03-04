@@ -4,6 +4,7 @@ import email from './../pics/email.png';
 import github from './../pics/github.png';
 import linkedin from './../pics/li.png';
 import resume from './../pics/resume.png';
+import resumePDF from './../pics/AnhPhamResume.pdf'
 
 
 function Contact() {
@@ -24,7 +25,7 @@ function Contact() {
                 <a href="https://www.linkedin.com/in/anhvpham/" target="_blank">
                     <img className="icons" src={linkedin}/>
                 </a>
-                <a href="">
+                <a href={resumePDF} target="_blank">
                     <img className="icons" src={resume}/>
                 </a>
                 

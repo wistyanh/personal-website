@@ -7,7 +7,7 @@
     align-items: center;
     border-radius: 35px;
     padding: 2% 2% 2% 2%;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     margin-right: 3rem;
     width: max-content;
     box-shadow: 0 4px 8px 0 rgb(100 86 49 / 10%), 0 6px 20px 0 rgb(100 86 49 / 10%);
@@ -15,6 +15,7 @@
     max-height: 70vh;
     min-width: 25vw;
     max-width: 30vw;
+    overflow: auto;
 }
 
 .projPic {

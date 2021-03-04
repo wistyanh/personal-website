@@ -8,8 +8,9 @@ function HomePage() {
 
       <div className="topBar">
 
-        {/* <h2 className="initial">AVP</h2> */}
-        <h2 className="initial">AVP</h2>
+        <div className="AVP">
+          <h2 className="initial">AVP</h2>
+        </div>
         
         <div className="NavBar">
           <ul>
@@ -49,3 +50,101 @@ function HomePage() {
 }
 
 export default HomePage;
+
+
+
+
+
+
+{/* Faulty NavBar Implementation
+import './HomePage.css';
+import me1 from './../pics/me1.JPG'
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Experiences from './Experiences.js';
+import Projects from './Projects.js';
+import Contact from './Contact.js';
+
+
+
+function HomePage() {
+  return (
+    <div className="HomePage">
+
+      <div className="topBar">
+
+        <div className="AVP">
+          <h2 className="initial">AVP</h2>
+        </div>
+        
+        <Router>
+          <div className="NavBar">
+            <nav>
+              <ul>
+                <li>
+                  <Link to="/">about me</Link>
+                </li>
+                <li>
+                  <Link to="/experiences">experiences</Link>
+                </li>
+                <li>
+                  <Link to="/projects">projects</Link>
+                </li>
+                <li>
+                  <Link to="/contact">contacts</Link>
+                </li>
+              </ul>
+            </nav>
+
+            <Switch>
+            <Route path="/about">
+              <HomePage />
+            </Route>
+            <Route path="/experiences">
+              <Experiences />
+            </Route>
+            <Route path="/projects">
+              <Projects />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+          </Switch>
+
+        </div>
+      </Router>
+
+
+        
+
+      </div>
+      
+      <div className="infopage">
+
+        <div className="left-side">
+          <h1>anh pham</h1>
+          <p className="info">
+            hi there! i’m a first-year student studying electrical engineering
+            and computer science at UC Berkeley.  i’m interested in utilizing
+            technology for social good and to create biomedical technology. 
+            i am currently a mentored developer at Codebase and an will be 
+            working as a electrical engineering intern at T-Mobile this upcoming summer.
+          </p>
+        </div>
+
+        <div className="right-side">
+          <img className="me1" src={me1}/>
+        </div>
+      </div>
+
+      <div className="contact">
+
+      </div>
+
+    </div>
+  );
+}
+
+export default HomePage;
+
+*/}
