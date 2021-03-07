@@ -1,18 +1,42 @@
 import './HomePage.css';
-import me1 from './../pics/me1.JPG'
+import me1 from './../pics/me1.JPG';
+import axios from 'axios';
+import React from 'react';
+require('dotenv').config();
 
 
 function HomePage() {
-  return (
-    <div className="HomePage">
 
-      <div className="topBar">
+  const [homeBio, setHomeBio] = React.useState();
+
+    async function fetchData() {
+        const response = await axios.get("https://api.airtable.com/v0/appB2OLPmKbyJJCxa/Homepage", {
+            headers: {
+                authorization: `Bearer ${process.env.REACT_APP_API_KEY}`,
+            },
+        });
+        setHomeBio(response.data.records);
+    }
+
+  React.useEffect(() => {
+    fetchData();
+  }, []);
+
+  if(!homeBio) {
+    return <div>lol don't work</div>
+  } 
+  
+  return (
+    <div className="HomePage" id="about">
+
+      {/* <div className="topBar">
 
         <div className="AVP">
           <h2 className="initial">AVP</h2>
         </div>
         
         <div className="NavBar">
+
           <ul>
             <li>about me</li>
             <li>experiences</li>
@@ -21,19 +45,15 @@ function HomePage() {
           </ul>
         </div>
 
-      </div>
+      </div> */}
       
       <div className="infopage">
 
         <div className="left-side">
           <h1>anh pham</h1>
-          <p className="info">
-            hi there! i’m a first-year student studying electrical engineering
-            and computer science at UC Berkeley.  i’m interested in utilizing
-            technology for social good and to create biomedical technology. 
-            i am currently a mentored developer at Codebase and an will be 
-            working as a electrical engineering intern at T-Mobile this upcoming summer.
-          </p>
+          <div className="info">
+            {homeBio[0].fields.Bio}
+          </div>
         </div>
 
         <div className="right-side">

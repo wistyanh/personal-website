@@ -10,7 +10,7 @@ import resumePDF from './../pics/AnhPhamResume.pdf'
 function Contact() {
   return (
 
-    <div className="contact">
+    <div className="contact" id="contact">
 
         <div className="leftSide">
             <h1 className="reach-out">reach out and let's chat!</h1>

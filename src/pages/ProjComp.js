@@ -1,12 +1,13 @@
 import './ProjComp.css';
+import React from "react";
 
-function ProjComp(props) {
+function ProjComp( props ) {
     return (
         <div className="projectComponent">
-            <h1 className="projName">{props.projName}</h1>
-            <img className="projPic" src={props.picture}/>
+            <h1 className="projName">{props.info.Name}</h1>
+            <img className="projPic" src={props.info.Icon[0].url}/>
             
-            <p className="projDescription">{props.description}</p>
+            <p className="projDescription">{props.info.Description}</p>
         </div>
     );
 }

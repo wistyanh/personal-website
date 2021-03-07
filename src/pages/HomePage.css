@@ -8,37 +8,44 @@
     flex-direction: column;
 }
 
- .topBar {
+/* .topBar {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     align-content: center;
     width: 100%;
-    height: 10vh;
+    height: 8vh;
     position: fixed;
     z-index: 100;
     background-color: #132d3e;
 }
 
 .AVP {
+    display: flex;
+    flex-wrap: nowrap;
     justify-content: flex-start;
-    flex-direction: row;
-    align-content: center;
+    left: 0;
     width: 50%;
     height: 100%;
 }
 
 h2.initial {
-    margin: 1.25rem 0 0 3rem;
+    margin: auto 0 0 ;
+    padding: 10px;
+    margin-left: 2vw;
 }
 
 .initial {
     color: white;
-    /* font-family: 'Roboto Slab', serif; */
     font-family: 'Krona One', sans-serif;
     font-size: 2.4rem;
 } 
+
+.initial:hover {
+    transform: scale(1.3);
+    transition-duration: 0.4s;
+}
 
 .NavBar {
     display: flex;
@@ -58,6 +65,11 @@ h2.initial {
     font-size: 1.5rem;
 }
 
+.NavBar li:hover {
+    transform: scale(1.5);
+    transition-duration: 0.25s;
+} */
+
 .infopage {
     text-align: center;
     line-height: 2.5rem;
@@ -73,11 +85,12 @@ h2.initial {
 
 .left-side {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     width: 50%;
     height: 100vh;
-    margin: 3rem 0 0 5rem;
+    margin: 3rem 0 0 6rem;
     font-family: 'Lexend Mega', sans-serif;
     font-size: 1rem;
     color: black;
