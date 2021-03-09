@@ -66,3 +66,20 @@ function Experiences() {
 }
 
 export default Experiences;
+
+
+
+
+// const icons = {
+//     Education: {
+//         icon: <FeatherIcon.BookOpen />,
+//         style: {background: '#333333' , color: '#fff' }
+//     },
+
+//     Code: {
+//         icon: <FeatherIcon.Code />,
+//         style: {background: '#333333' , color: '#fff' }
+//     }
+// }
+
+// {position.fields.Icon && icons[position.fields.Icon] ? icons[position.fields.Icon].style    :null}

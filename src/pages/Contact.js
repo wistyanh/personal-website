@@ -8,6 +8,28 @@ import resumePDF from './../pics/AnhPhamResume.pdf'
 
 
 function Contact() {
+
+    // const [resumePDF, setResumePDF] = React.useState();
+
+    // async function fetchData() {
+    //     const response = await axios.get("https://api.airtable.com/v0/appB2OLPmKbyJJCxa/Homepage", {
+    //         headers: {
+    //             authorization: `Bearer ${process.env.REACT_APP_API_KEY}`,
+    //         },
+    //     });
+    //     setResumePDF(response.data.records);
+    // }
+
+    // React.useEffect(() => {
+    //     fetchData();
+    // }, []);
+
+    // if(!resumePDF) {
+    //     return <div>lol don't work</div>
+    // } 
+
+
+
   return (
 
     <div className="contact" id="contact">
